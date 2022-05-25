@@ -1,0 +1,16 @@
+:root{
+    --main-color: #2D409E;
+    --accent-color: #ABA9BB;
+    --other-color: #00C894;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background: url("Hexagon.svg");
+    /* background-repeat: no-repeat; */
+   
+}
