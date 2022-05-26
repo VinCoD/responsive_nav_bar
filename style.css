@@ -97,6 +97,28 @@
         display: grid;
         grid-template-columns: auto;
         background: var(--brightred);
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        /* left: -100%;
+        opacity: 0; */
+        transition: all 0.5s ease;
+    }
+    #navbar-logo{
+        margin-left: 20px;
+    }
+
+    .nav-menu.active{
+        background-color: var(--darkgray);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5 ease;
+
+
+    }
+    .nav-links{
+        text-align: center;
     }
     
 }
