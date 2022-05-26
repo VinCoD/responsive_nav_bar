@@ -119,10 +119,21 @@
     }
     .nav-links{
         text-align: center;
-    }
-    
-}
+        line-height: 60px;
+        width: 100%;
+        display: table;
 
-.body{
+    }
+    .nav-links:hover{
+        background-color: var(--brightred);
+        color: var(--white);
+        transition: all 0.4s ease-out;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-links-btn{
+        
+    }
     
 }
