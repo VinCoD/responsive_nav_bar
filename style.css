@@ -55,5 +55,48 @@
 }
 
 .nav-links{
+    color: var(--white);
+    text-decoration: none;
+
+}
+
+.nav-links:hover{
+    color: var(--brightred);
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-btn{
+    background-color: var(--brightred);
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.nav-links-btn:hover{
+    background-color: transparent;
+    columns: var(--white);
+    padding: 5px 18px;
+    border-radius: 4px;
+    border: 1px solid var(--brightred);
+}
+
+.menu-toggle .bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: var(--white);
+}
+
+@media screen and (max-width:768px){
+    .nav-container{
+        position: relative;
+
+    }
+
+    .nav-menu{
+        display: grid;
+        grid-template-columns: auto;
+        background: var(--brightred);
+    }
     
 }
